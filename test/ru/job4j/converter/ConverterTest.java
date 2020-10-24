@@ -1,9 +1,11 @@
 package ru.job4j.converter;
+
 import org.junit.Assert;
 import org.junit.Test;
-import junit.framework.TestCase;
 
-public class ConverterTest extends TestCase {
+import static org.junit.Assert.*;
+
+public class ConverterTest {
 
     @Test
     public void whenConvert140RblThen2Euro() {
