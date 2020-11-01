@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 public class DefragmentTest {
 
     @Test
-    public void singleFirstNull() {
+    public void singleFirstNull(){
         String[] input = {null, "I"};
         String[] compressed = Defragment.compress(input);
         String[] expected = {"I", null};
