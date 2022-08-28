@@ -20,7 +20,7 @@ public class Converter {
 
         float in = 140;
         float expectedEuro = 2;
-        float expectedDollar = 2.3333333F;
+        float expectedDollar = 2.3333333f;
         float outEuro = Converter.rubleToEuro(in);
         float outDollar = Converter.rubleToDollar(in);
         boolean passedEuro = expectedEuro == outEuro;
