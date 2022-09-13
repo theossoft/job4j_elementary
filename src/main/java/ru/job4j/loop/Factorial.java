@@ -5,9 +5,8 @@ public class Factorial {
         int result = 1;
         for (int i = 1; i <= n; i++) {
             if (n == 0) {
-                n = 1;
-            }
-            else {
+                result = 1;
+            } else {
                 result = result * i;
             }
         }
