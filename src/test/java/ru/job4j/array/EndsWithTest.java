@@ -19,4 +19,12 @@ public class EndsWithTest {
         boolean result = EndsWith.endsWith(word, post);
         assertThat(result).isFalse();
     }
+
+    @Test
+    public void whenNotEndWithPrefixThenFalse1() {
+        char[] word = {'H', 'e', 'l', 'l', 'o'};
+        char[] post = {'k', 'o'};
+        boolean result = EndsWith.endsWith(word, post);
+        assertThat(result).isFalse();
+    }
 }
